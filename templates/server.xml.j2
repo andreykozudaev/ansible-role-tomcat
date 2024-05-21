@@ -29,7 +29,7 @@
 {% if instance.maxparametercount is defined %}
                maxParameterCount="{{ instance.maxparametercount }}"
 {% endif %}
-    />
+               />
 
 {% if instance.ajp_enabled | default(tomcat_ajp_enabled) %}
 
@@ -48,7 +48,7 @@
 {% if instance.packet_size is defined %}
               packetSize="{{ instance.packet_size }}"
 {% endif %}
-    />
+              />
 {% endif %}
 
     <Engine name="Catalina" defaultHost="localhost">
